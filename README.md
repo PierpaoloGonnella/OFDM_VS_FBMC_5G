@@ -81,6 +81,98 @@ Simulations show FBMC's performance in terms of BER and PSD, highlighting its ad
 ## Comparison between OFDM and OQAM-FBMC
 FBMC demonstrates lower sidelobe levels and better spectral efficiency without the need for a cyclic prefix, making it more suitable for certain 5G applications.
 
+# File Descriptions and Usage Instructions
+
+## FBMC_Modulation_and_Demodulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `FBMC_Modulation_and_Demodulation.m` into a MATLAB function file.
+3. You can now use this function in your MATLAB scripts or command window.
+
+### Functionality:
+- Implements both modulation and demodulation for FBMC signals.
+
+## fbmc_simulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `fbmc_simulation.m` into a MATLAB script file.
+3. Run the script in MATLAB.
+
+### Functionality:
+- Simulates an FBMC system.
+
+## m_ary_qam_modulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `m_ary_qam_modulation.m` into a MATLAB function file.
+3. You can now use this function in your MATLAB scripts or command window.
+
+### Functionality:
+- Performs M-ary QAM modulation.
+
+## OFDM_BER_Simulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `OFDM_BER_Simulation.m` into a MATLAB script file.
+3. Run the script in MATLAB.
+
+### Functionality:
+- Simulates Bit Error Rate (BER) for an OFDM system.
+
+## OFDM_Modulator_and_Demodulator.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `OFDM_Modulator_and_Demodulator.m` into a MATLAB function file.
+3. You can now use these functions in your MATLAB scripts or command window.
+
+### Functionality:
+- Implements both modulation and demodulation for OFDM signals.
+
+## ofdm_qam_ber_simulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `ofdm_qam_ber_simulation.m` into a MATLAB script file.
+3. Run the script in MATLAB.
+
+### Functionality:
+- Simulates Bit Error Rate (BER) for an OFDM-QAM system.
+
+## ofdm_simulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `ofdm_simulation.m` into a MATLAB script file.
+3. Run the script in MATLAB.
+
+### Functionality:
+- Simulates an OFDM system.
+
+## OFDM_Spectrum_Analysis.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `OFDM_Spectrum_Analysis.m` into a MATLAB script file.
+3. Run the script in MATLAB.
+
+### Functionality:
+- Analyzes the spectrum of an OFDM signal.
+
+## OFDM_System_Simulation.m
+
+### Usage:
+1. Open MATLAB.
+2. Copy the contents of `OFDM_System_Simulation.m` into a MATLAB script file.
+3. Run the script in MATLAB.
+
+### Functionality:
+- Simulates an OFDM system with various parameters and analyzes the PAPR CCDF.
+
 ## Conclusions
 The study concludes that while OFDM is well-suited for many broadband applications, FBMC offers significant advantages in spectral efficiency and interference management, particularly for uplink multiuser and cognitive radio scenarios.
 
