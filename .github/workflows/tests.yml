@@ -1,0 +1,16 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  octave:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install GNU Octave
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends octave
+      - name: Run unit tests
+        run: octave --no-gui --no-window-system --eval "addpath(pwd); addpath(fullfile(pwd,'tests')); run_ofdm_modulator_tests"
