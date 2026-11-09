@@ -1,4 +1,7 @@
 # Study, Implementation, and Simulation of OFDM and FBMC Systems in MATLAB
+
+[![tests](https://github.com/PierpaoloGonnella/OFDM_VS_FBMC_5G/actions/workflows/tests.yml/badge.svg)](https://github.com/PierpaoloGonnella/OFDM_VS_FBMC_5G/actions/workflows/tests.yml)
+
 ## Overview
 This project explores and implements two key multicarrier modulation schemes: Orthogonal Frequency Division Multiplexing (OFDM) and Filter Bank Multicarrier (FBMC) systems, specifically using Offset Quadrature Amplitude Modulation (OQAM). Both systems are simulated and analyzed using MATLAB to evaluate their performance, particularly in the context of 5G communication systems.
 
